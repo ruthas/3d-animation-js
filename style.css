@@ -23,8 +23,8 @@ body {
 
 .card {
     transform-style: preserve-3d;
-	min-height: 80vh;
-	width: 35rem;
+	min-height: 87vh;
+	width: 30rem;
 	border-radius: 2rem;
 	padding: 0rem 5rem;
 	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);

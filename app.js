@@ -1,15 +1,12 @@
-//Movement animation to happen
 const card = document.querySelector('.card')
 const container = document.querySelector('.container')
-
-//items
 const title = document.querySelector('.title')
 const sneaker = document.querySelector('.sneaker img')
 const purchase = document.querySelector('.purchase')
 const description = document.querySelector('.info h3')
 const sizes = document.querySelector('.sizes')
 
-//Movement animation event
+//mouse move animation event
 container.addEventListener('mousemove', (e) => {
 	let xAxis = (window.innerWidth / 2 - e.pageX) / 25
 	let yAxis = (window.innerHeight / 2 - e.pageY) / 25
